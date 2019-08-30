@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/face_detection.dir/src/execute/main.cpp.o  -o face_detection 

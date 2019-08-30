@@ -1,0 +1,14 @@
+/home/illidansr/CLionProjects/face_detection/build/CMakeFiles/rebuild_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/CMakeFiles/test.dir
+/home/illidansr/CLionProjects/face_detection/build/CMakeFiles/edit_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/src/CMakeFiles/rebuild_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/src/CMakeFiles/test.dir
+/home/illidansr/CLionProjects/face_detection/build/src/CMakeFiles/edit_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/src/execute/CMakeFiles/rebuild_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/src/execute/CMakeFiles/edit_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/src/execute/CMakeFiles/execute.dir
+/home/illidansr/CLionProjects/face_detection/build/src/execute/CMakeFiles/test.dir
+/home/illidansr/CLionProjects/face_detection/build/src/face_detect/CMakeFiles/rebuild_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/src/face_detect/CMakeFiles/edit_cache.dir
+/home/illidansr/CLionProjects/face_detection/build/src/face_detect/CMakeFiles/face_detect.dir
+/home/illidansr/CLionProjects/face_detection/build/src/face_detect/CMakeFiles/test.dir

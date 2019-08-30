@@ -1,0 +1,12 @@
+/snap/clion/82/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/illidansr/CLionProjects/face_detection
+INSTALL_INCLUDE_DIR:/home/illidansr/CLionProjects/face_detection/include
+INSTALL_BIN_DIR:/home/illidansr/CLionProjects/face_detection/bin
+INSTALL_LIB_DIR:/home/illidansr/CLionProjects/face_detection/lib
+-- Boost version: 1.69.0
+-- Boost version: 1.69.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/illidansr/CLionProjects/face_detection/cmake-build-debug
