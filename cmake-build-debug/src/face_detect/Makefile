@@ -48,10 +48,10 @@ RM = /snap/clion/82/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detection
+CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detection/cmake-build-debug
+CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detect/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/face_detect/CMakeFiles/progress.marks
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles 0
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/CMakeFiles/progress.marks
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/clean
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/preinstall
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/preinstall
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/face_detect/CMakeFiles/face_detect.dir/rule:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/CMakeFiles/face_detect.dir/rule
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/face_detect/CMakeFiles/face_detect.dir/rule
 .PHONY : src/face_detect/CMakeFiles/face_detect.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ face_detect: src/face_detect/CMakeFiles/face_detect.dir/rule
 
 # fast build rule for target.
 face_detect/fast:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/build
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/build
 .PHONY : face_detect/fast
 
 face_detect.o: face_detect.cpp.o
@@ -142,7 +142,7 @@ face_detect.o: face_detect.cpp.o
 
 # target to build an object file
 face_detect.cpp.o:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/face_detect.cpp.o
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/face_detect.cpp.o
 .PHONY : face_detect.cpp.o
 
 face_detect.i: face_detect.cpp.i
@@ -151,7 +151,7 @@ face_detect.i: face_detect.cpp.i
 
 # target to preprocess a source file
 face_detect.cpp.i:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/face_detect.cpp.i
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/face_detect.cpp.i
 .PHONY : face_detect.cpp.i
 
 face_detect.s: face_detect.cpp.s
@@ -160,7 +160,7 @@ face_detect.s: face_detect.cpp.s
 
 # target to generate assembly for a file
 face_detect.cpp.s:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/face_detect.cpp.s
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/face_detect.cpp.s
 .PHONY : face_detect.cpp.s
 
 # Help Target
@@ -187,6 +187,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -20,7 +20,6 @@ namespace app {
     public:
         Application(std::string path);
 
-//        void read_directory(const std::string& name, stringvec& v)
         std::vector<std::string> get_all_file_in_dir(const std::string &dirPath,
                                                      const std::vector<std::string> dirSkipList = { });
         ~Application();

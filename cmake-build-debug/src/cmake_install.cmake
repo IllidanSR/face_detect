@@ -1,8 +1,8 @@
-# Install script for directory: /home/illidansr/CLionProjects/face_detection/src
+# Install script for directory: /home/illidansr/CLionProjects/face_detect/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/illidansr/CLionProjects/face_detection")
+  set(CMAKE_INSTALL_PREFIX "/home/illidansr/CLionProjects/face_detect")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/cmake_install.cmake")
-  include("/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/face_detect/cmake_install.cmake")
+  include("/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/cmake_install.cmake")
+  include("/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/cmake_install.cmake")
 
 endif()
 

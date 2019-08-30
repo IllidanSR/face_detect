@@ -43,10 +43,10 @@ RM = /snap/clion/82/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detection
+CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detection/cmake-build-debug
+CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detect/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/execute/CMakeFiles/execute.dir/depend.make
@@ -59,29 +59,29 @@ include src/execute/CMakeFiles/execute.dir/flags.make
 
 src/execute/CMakeFiles/execute.dir/main.cpp.o: src/execute/CMakeFiles/execute.dir/flags.make
 src/execute/CMakeFiles/execute.dir/main.cpp.o: ../src/execute/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/execute/CMakeFiles/execute.dir/main.cpp.o"
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/execute.dir/main.cpp.o -c /home/illidansr/CLionProjects/face_detection/src/execute/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/execute/CMakeFiles/execute.dir/main.cpp.o"
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/execute.dir/main.cpp.o -c /home/illidansr/CLionProjects/face_detect/src/execute/main.cpp
 
 src/execute/CMakeFiles/execute.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/execute.dir/main.cpp.i"
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/illidansr/CLionProjects/face_detection/src/execute/main.cpp > CMakeFiles/execute.dir/main.cpp.i
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/illidansr/CLionProjects/face_detect/src/execute/main.cpp > CMakeFiles/execute.dir/main.cpp.i
 
 src/execute/CMakeFiles/execute.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/execute.dir/main.cpp.s"
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/illidansr/CLionProjects/face_detection/src/execute/main.cpp -o CMakeFiles/execute.dir/main.cpp.s
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/illidansr/CLionProjects/face_detect/src/execute/main.cpp -o CMakeFiles/execute.dir/main.cpp.s
 
 src/execute/CMakeFiles/execute.dir/application.cpp.o: src/execute/CMakeFiles/execute.dir/flags.make
 src/execute/CMakeFiles/execute.dir/application.cpp.o: ../src/execute/application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/execute/CMakeFiles/execute.dir/application.cpp.o"
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/execute.dir/application.cpp.o -c /home/illidansr/CLionProjects/face_detection/src/execute/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/execute/CMakeFiles/execute.dir/application.cpp.o"
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/execute.dir/application.cpp.o -c /home/illidansr/CLionProjects/face_detect/src/execute/application.cpp
 
 src/execute/CMakeFiles/execute.dir/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/execute.dir/application.cpp.i"
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/illidansr/CLionProjects/face_detection/src/execute/application.cpp > CMakeFiles/execute.dir/application.cpp.i
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/illidansr/CLionProjects/face_detect/src/execute/application.cpp > CMakeFiles/execute.dir/application.cpp.i
 
 src/execute/CMakeFiles/execute.dir/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/execute.dir/application.cpp.s"
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/illidansr/CLionProjects/face_detection/src/execute/application.cpp -o CMakeFiles/execute.dir/application.cpp.s
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/illidansr/CLionProjects/face_detect/src/execute/application.cpp -o CMakeFiles/execute.dir/application.cpp.s
 
 # Object files for target execute
 execute_OBJECTS = \
@@ -115,8 +115,8 @@ execute_EXTERNAL_OBJECTS =
 ../build/execute: /usr/local/include/lib/libboost_filesystem.so
 ../build/execute: /usr/local/include/lib/libboost_system.so
 ../build/execute: src/execute/CMakeFiles/execute.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../build/execute"
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/execute.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../build/execute"
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/execute.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/execute/CMakeFiles/execute.dir/build: ../build/execute
@@ -124,10 +124,10 @@ src/execute/CMakeFiles/execute.dir/build: ../build/execute
 .PHONY : src/execute/CMakeFiles/execute.dir/build
 
 src/execute/CMakeFiles/execute.dir/clean:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute && $(CMAKE_COMMAND) -P CMakeFiles/execute.dir/cmake_clean.cmake
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && $(CMAKE_COMMAND) -P CMakeFiles/execute.dir/cmake_clean.cmake
 .PHONY : src/execute/CMakeFiles/execute.dir/clean
 
 src/execute/CMakeFiles/execute.dir/depend:
-	cd /home/illidansr/CLionProjects/face_detection/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/illidansr/CLionProjects/face_detection /home/illidansr/CLionProjects/face_detection/src/execute /home/illidansr/CLionProjects/face_detection/cmake-build-debug /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute /home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/CMakeFiles/execute.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/illidansr/CLionProjects/face_detect /home/illidansr/CLionProjects/face_detect/src/execute /home/illidansr/CLionProjects/face_detect/cmake-build-debug /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/CMakeFiles/execute.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/execute/CMakeFiles/execute.dir/depend
 

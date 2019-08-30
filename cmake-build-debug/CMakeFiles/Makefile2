@@ -59,10 +59,10 @@ RM = /snap/clion/82/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detection
+CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detection/cmake-build-debug
+CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detect/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for directory src
@@ -110,7 +110,7 @@ src/execute/preinstall:
 src/execute/CMakeFiles/execute.dir/all: src/face_detect/CMakeFiles/face_detect.dir/all
 	$(MAKE) -f src/execute/CMakeFiles/execute.dir/build.make src/execute/CMakeFiles/execute.dir/depend
 	$(MAKE) -f src/execute/CMakeFiles/execute.dir/build.make src/execute/CMakeFiles/execute.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target execute"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target execute"
 .PHONY : src/execute/CMakeFiles/execute.dir/all
 
 # Include target in all.
@@ -120,9 +120,9 @@ all: src/execute/CMakeFiles/execute.dir/all
 
 # Build rule for subdir invocation for target.
 src/execute/CMakeFiles/execute.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 src/execute/CMakeFiles/execute.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles 0
 .PHONY : src/execute/CMakeFiles/execute.dir/rule
 
 # Convenience name for target.
@@ -165,7 +165,7 @@ src/face_detect/preinstall:
 src/face_detect/CMakeFiles/face_detect.dir/all:
 	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/depend
 	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target face_detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target face_detect"
 .PHONY : src/face_detect/CMakeFiles/face_detect.dir/all
 
 # Include target in all.
@@ -175,9 +175,9 @@ all: src/face_detect/CMakeFiles/face_detect.dir/all
 
 # Build rule for subdir invocation for target.
 src/face_detect/CMakeFiles/face_detect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/face_detect/CMakeFiles/face_detect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles 0
 .PHONY : src/face_detect/CMakeFiles/face_detect.dir/rule
 
 # Convenience name for target.

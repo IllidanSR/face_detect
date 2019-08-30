@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/illidansr/CLionProjects/face_detection/include -I/home/illidansr/CLionProjects/face_detection/src/face_detect/. -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/home/illidansr/CLionProjects/face_detect/include -I/home/illidansr/CLionProjects/face_detect/src/face_detect/. -isystem /usr/local/include/opencv 
 

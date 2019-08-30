@@ -8,24 +8,24 @@
 		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\execute\;CMake Files\src\face_detect\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute"/>
+				<Option working_dir="/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="execute">
-				<Option output="/home/illidansr/CLionProjects/face_detection/build/execute" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/illidansr/CLionProjects/face_detection/build"/>
+				<Option output="/home/illidansr/CLionProjects/face_detect/build/execute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/illidansr/CLionProjects/face_detect/build"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/illidansr/CLionProjects/face_detection/include"/>
-					<Add directory="/home/illidansr/CLionProjects/face_detection/src/face_detect/."/>
+					<Add directory="/home/illidansr/CLionProjects/face_detect/include"/>
+					<Add directory="/home/illidansr/CLionProjects/face_detect/src/face_detect/."/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -37,21 +37,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 execute"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 execute"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="execute/fast">
-				<Option output="/home/illidansr/CLionProjects/face_detection/build/execute" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/illidansr/CLionProjects/face_detection/build"/>
+				<Option output="/home/illidansr/CLionProjects/face_detect/build/execute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/illidansr/CLionProjects/face_detect/build"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/illidansr/CLionProjects/face_detection/include"/>
-					<Add directory="/home/illidansr/CLionProjects/face_detection/src/face_detect/."/>
+					<Add directory="/home/illidansr/CLionProjects/face_detect/include"/>
+					<Add directory="/home/illidansr/CLionProjects/face_detect/src/face_detect/."/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -63,44 +63,44 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 execute/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detection/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 execute/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/src/execute/application.cpp">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/execute/application.cpp">
 			<Option target="execute"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/src/execute/application.hpp">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/execute/application.hpp">
 			<Option target="execute"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/src/execute/main.cpp">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/execute/main.cpp">
 			<Option target="execute"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/CMakeLists.txt">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/src/CMakeLists.txt">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/src/execute/CMakeLists.txt">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/execute/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\execute\"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/src/face_detect/CMakeLists.txt">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/face_detect/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\face_detect\"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/illidansr/CLionProjects/face_detection/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>

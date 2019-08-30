@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/illidansr/CLionProjects/face_detection/src/execute/application.cpp
-application.hpp
-/home/illidansr/CLionProjects/face_detection/src/execute/application.hpp
-
-/home/illidansr/CLionProjects/face_detection/src/execute/application.hpp
+/home/illidansr/CLionProjects/face_detect/src/execute/application.hpp
 iostream
 -
 algorithm
@@ -24,7 +20,7 @@ boost/filesystem.hpp
 boost/filesystem/path.hpp
 -
 
-/home/illidansr/CLionProjects/face_detection/src/execute/main.cpp
+/home/illidansr/CLionProjects/face_detect/src/execute/main.cpp
 iostream
 -
 vector
@@ -36,11 +32,11 @@ string
 boost/filesystem.hpp
 -
 ../face_detect/face_detect.hpp
-/home/illidansr/CLionProjects/face_detection/src/face_detect/face_detect.hpp
+/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
 application.hpp
-/home/illidansr/CLionProjects/face_detection/src/execute/application.hpp
+/home/illidansr/CLionProjects/face_detect/src/execute/application.hpp
 
-/home/illidansr/CLionProjects/face_detection/src/face_detect/face_detect.hpp
+/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
 string
 -
 vector

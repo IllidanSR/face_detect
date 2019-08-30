@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++11
 
 CXX_DEFINES = -Dface_detect_EXPORTS
 
-CXX_INCLUDES = -I/home/illidansr/CLionProjects/face_detection/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/home/illidansr/CLionProjects/face_detect/include -isystem /usr/local/include/opencv 
 
