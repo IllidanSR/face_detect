@@ -57,7 +57,6 @@ namespace face_detect {///< @namespace face_detect
      * @throw if file can't be open - generate cv::Exception */
     std::vector<cv::Rect> find_face(cv::Mat frame){
         cv::CascadeClassifier cascadeClassifier;
-        cv::Mat image;
         try {
             /*!@brief change hard-name to config-loaded name*/
             cascadeClassifier.load("../configs/haarcascade_frontalface_default.xml");
@@ -70,7 +69,7 @@ namespace face_detect {///< @namespace face_detect
             std::cerr << "No frame" << std::endl;
         }
         std::vector<cv::Rect> faces;
-        cascadeClassifier.detectMultiScale(image,
+        cascadeClassifier.detectMultiScale(frame,
                 faces);
 
         create_json(faces);

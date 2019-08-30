@@ -32,7 +32,7 @@ namespace app {///< @namespace app
      * */
     class Application {
     public:
-        Application(std::string path);
+        Application() = default;
         /*!@brief generate_masked_image - external method to start image processing
          *
          * @param[in] dirPath dir path
@@ -41,6 +41,7 @@ namespace app {///< @namespace app
 
         std::vector<std::string> get_all_file_in_dir(const std::string &dirPath,
                                                      const std::vector<std::string> dirSkipList = { });
+
         ~Application();
 
     private:

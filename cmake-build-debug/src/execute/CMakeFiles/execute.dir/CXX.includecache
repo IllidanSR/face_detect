@@ -29,8 +29,8 @@ string
 -
 boost/filesystem.hpp
 -
-../face_detect/face_detect.hpp
-/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
+../image_processing/image_processing.hpp
+/home/illidansr/CLionProjects/face_detect/src/image_processing/image_processing.hpp
 application.hpp
 /home/illidansr/CLionProjects/face_detect/src/execute/application.hpp
 
@@ -47,4 +47,12 @@ boost/property_tree/json_parser.hpp
 -
 opencv2/opencv.hpp
 -
+
+/home/illidansr/CLionProjects/face_detect/src/image_processing/image_processing.hpp
+opencv2/opencv.hpp
+-
+iostream
+-
+../face_detect/face_detect.hpp
+/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
 

@@ -12,12 +12,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "../src/image_processing/."
   "../src/face_detect/."
   "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/image_processing/CMakeFiles/image_processing.dir/DependInfo.cmake"
   "/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/CMakeFiles/face_detect.dir/DependInfo.cmake"
   )
 

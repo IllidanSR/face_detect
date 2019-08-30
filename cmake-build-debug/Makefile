@@ -148,17 +148,17 @@ face_detect/fast:
 .PHONY : face_detect/fast
 
 #=============================================================================
-# Target rules for targets named iamge_processing
+# Target rules for targets named image_processing
 
 # Build rule for target.
-iamge_processing: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 iamge_processing
-.PHONY : iamge_processing
+image_processing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image_processing
+.PHONY : image_processing
 
 # fast build rule for target.
-iamge_processing/fast:
-	$(MAKE) -f src/image_processing/CMakeFiles/iamge_processing.dir/build.make src/image_processing/CMakeFiles/iamge_processing.dir/build
-.PHONY : iamge_processing/fast
+image_processing/fast:
+	$(MAKE) -f src/image_processing/CMakeFiles/image_processing.dir/build.make src/image_processing/CMakeFiles/image_processing.dir/build
+.PHONY : image_processing/fast
 
 # Help Target
 help:
@@ -171,7 +171,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... execute"
 	@echo "... face_detect"
-	@echo "... iamge_processing"
+	@echo "... image_processing"
 .PHONY : help
 
 

@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/illidansr/CLionProjects/face_detect/include"/>
+					<Add directory="/home/illidansr/CLionProjects/face_detect/src/image_processing/."/>
 					<Add directory="/home/illidansr/CLionProjects/face_detect/src/face_detect/."/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -51,6 +52,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/illidansr/CLionProjects/face_detect/include"/>
+					<Add directory="/home/illidansr/CLionProjects/face_detect/src/image_processing/."/>
 					<Add directory="/home/illidansr/CLionProjects/face_detect/src/face_detect/."/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>

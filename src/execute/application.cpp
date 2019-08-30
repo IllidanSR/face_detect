@@ -5,9 +5,9 @@
 #include "application.hpp"
 
 namespace app{
-    Application::Application(std::string path) {
-        this->path_dir = std::move(path);
-    }
+//    Application::Application(std::string path) {
+//        this->path_dir = std::move(path);
+//    }
 
     std::vector<std::string> Application::get_all_file_in_dir(const std::string &dirPath,
             const std::vector<std::string> dirSkipList){

@@ -8,6 +8,7 @@
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include "../face_detect/face_detect.hpp"
 
 
 namespace image_processing {///< @namespace image_processing
@@ -23,9 +24,20 @@ namespace image_processing {///< @namespace image_processing
     public:
         /*!@brief default constructor
          * */
-        ImageProcessing() = default;
+        ImageProcessing();
+        /*!@brief main image process picture
+         * @param[in] image image file in OpenCV format
+         * @param[in] pict_name picture name
+         * @details function get path to file, verf is file can be open
+         * @author IllidanSR
+         * @version 1.0
+         * @date 30.08.19
+         * @throw if file can't be open - generate cv::Exception */
         void image_processing(cv::Mat image, std::string pict_name);
+        ~ImageProcessing() = default;
     private:
+        uint image_resize_cof_col; ///< @name image resize cof
+        uint image_resize_cof_row; ///< @name image resize cof
         /*!@brief resize picture and save it
          * @param[in] path path to file
          * @details function get path to file, verf is file can be open
@@ -52,9 +64,9 @@ namespace image_processing {///< @namespace image_processing
          * @version 1.0
          * @date 30.08.19
          * @throw if file can't be open - generate cv::Exception */
-        bool save_file(std::string file_name, cv::Mat &frame);
+        bool save_file(std::string file_name, cv::Mat frame);
 
-        ~ImageProcessing() = default;
+
 
 
     };

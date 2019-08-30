@@ -65,5 +65,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "src/execute/CMakeFiles/execute.dir/DependInfo.cmake"
   "src/face_detect/CMakeFiles/face_detect.dir/DependInfo.cmake"
-  "src/image_processing/CMakeFiles/iamge_processing.dir/DependInfo.cmake"
+  "src/image_processing/CMakeFiles/image_processing.dir/DependInfo.cmake"
   )
