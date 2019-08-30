@@ -5,7 +5,7 @@
 		<Option title="face_detect"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\execute\;CMake Files\src\face_detect\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\execute\;CMake Files\src\face_detect\;CMake Files\src\image_processing\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect"/>
@@ -85,6 +85,9 @@
 		</Unit>
 		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/face_detect/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\face_detect\"/>
+		</Unit>
+		<Unit filename="/home/illidansr/CLionProjects/face_detect/src/image_processing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\image_processing\"/>
 		</Unit>
 		<Unit filename="/home/illidansr/CLionProjects/face_detect/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>

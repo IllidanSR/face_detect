@@ -147,6 +147,19 @@ face_detect/fast:
 	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/build
 .PHONY : face_detect/fast
 
+#=============================================================================
+# Target rules for targets named iamge_processing
+
+# Build rule for target.
+iamge_processing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iamge_processing
+.PHONY : iamge_processing
+
+# fast build rule for target.
+iamge_processing/fast:
+	$(MAKE) -f src/image_processing/CMakeFiles/iamge_processing.dir/build.make src/image_processing/CMakeFiles/iamge_processing.dir/build
+.PHONY : iamge_processing/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,6 +171,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... execute"
 	@echo "... face_detect"
+	@echo "... iamge_processing"
 .PHONY : help
 
 
