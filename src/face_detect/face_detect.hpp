@@ -47,6 +47,7 @@ namespace face_detect {///< @namespace face_detect
         }
         boost::property_tree::json_parser::write_json("result.json", pt);
     }
+
     /*!@brief main function to find face on picture
      * @param[in] path path to file
      * @details function get path to file, verf is file can be open
@@ -54,28 +55,29 @@ namespace face_detect {///< @namespace face_detect
      * @version 1.0
      * @date 30.08.19
      * @throw if file can't be open - generate cv::Exception */
-    std::vector<cv::Rect> find_face(std::string path){
+    std::vector<cv::Rect> find_face(cv::Mat frame){
         cv::CascadeClassifier cascadeClassifier;
-        cv::Mat image;
         try {
-            /*!@brief change hardname to configloaded name*/
+            /*!@brief change hard-name to config-loaded name*/
             cascadeClassifier.load("../configs/haarcascade_frontalface_default.xml");
         }catch (cv::Exception &exception){
             std::cerr << "Could not open or find cascade classifier" << std::endl;
         }
 
-        image = cv::imread(path.c_str(), cv::IMREAD_COLOR);
-        if(image.empty()){
-            std::cerr << "Could not open or find file" << std::endl;
+//        image = cv::imread(path.c_str(), cv::IMREAD_COLOR);
+        if(frame.empty()){
+            std::cerr << "No frame" << std::endl;
         }
         std::vector<cv::Rect> faces;
-        cascadeClassifier.detectMultiScale(image,
+        cascadeClassifier.detectMultiScale(frame,
                 faces);
 
         create_json(faces);
         std::cout << "End work with this file : " << std::endl;
-        std::cout << "PATH : " << path << std::endl;
         return faces;
     };
+
+
+
 }
 #endif //FACE_DETECTION_FACE_DETECT_HPP

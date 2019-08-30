@@ -13,4 +13,4 @@ SET(SOURCE
 
 add_executable(${PROJECT_NAME} ${SOURCE})
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
-target_link_libraries(${PROJECT_NAME} face_detect)
+target_link_libraries(${PROJECT_NAME} image_processing)

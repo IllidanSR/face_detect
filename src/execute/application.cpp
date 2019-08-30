@@ -5,18 +5,9 @@
 #include "application.hpp"
 
 namespace app{
-    Application::Application(std::string path) {
-        this->path_dir = std::move(path);
-        boost::filesystem::path filepath = "aarr.conf";
-        if (filepath.extension() == ".jpg"||filepath.extension() == ".png") // Heed the dot.
-        {
-            std::cout << filepath.stem() << " is a valid type."; // Output: "myFile is a valid type."
-        }
-        else
-        {
-            std::cout << filepath.filename() << " is an invalid type."; // Output: e.g. "myFile.cfg is an invalid type"
-        }
-    }
+//    Application::Application(std::string path) {
+//        this->path_dir = std::move(path);
+//    }
 
     std::vector<std::string> Application::get_all_file_in_dir(const std::string &dirPath,
             const std::vector<std::string> dirSkipList){

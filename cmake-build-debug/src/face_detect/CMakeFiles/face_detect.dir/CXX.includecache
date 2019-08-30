@@ -6,3 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.cpp
+face_detect.hpp
+/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
+
+/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
+string
+-
+vector
+-
+iostream
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+opencv2/opencv.hpp
+-
+
