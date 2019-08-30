@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/library.h
+string
+-
+vector
+-
+iostream
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+opencv2/opencv.hpp
+-
+
+/home/illidansr/CLionProjects/fdetectlib/src/library.cpp
+include/library.h
+/home/illidansr/CLionProjects/fdetectlib/src/include/library.h
+iostream
+-
+
