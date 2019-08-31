@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(execute)
+
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lboost_system -pthread")
 
 find_package(Boost 1.67 REQUIRED)
 include_directories(${Boost_INCLUDE_DIRS})
@@ -12,5 +14,5 @@ SET(SOURCE
         application.hpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
-target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
 target_link_libraries(${PROJECT_NAME} image_processing)
+target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
