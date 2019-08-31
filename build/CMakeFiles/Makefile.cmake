@@ -15,7 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/feature_tests.cxx"
   "../src/CMakeLists.txt"
   "../src/execute/CMakeLists.txt"
-  "../src/face_detect/CMakeLists.txt"
+  "../src/image_processing/CMakeLists.txt"
   "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig.cmake"
   "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
@@ -122,11 +122,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/execute/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/face_detect/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/image_processing/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/execute/CMakeFiles/execute.dir/DependInfo.cmake"
-  "src/face_detect/CMakeFiles/face_detect.dir/DependInfo.cmake"
+  "src/image_processing/CMakeFiles/image_processing.dir/DependInfo.cmake"
   )

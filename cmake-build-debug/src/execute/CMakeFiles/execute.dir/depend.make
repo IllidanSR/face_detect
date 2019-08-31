@@ -4,8 +4,8 @@
 src/execute/CMakeFiles/execute.dir/application.cpp.o: ../src/execute/application.cpp
 src/execute/CMakeFiles/execute.dir/application.cpp.o: ../src/execute/application.hpp
 
+src/execute/CMakeFiles/execute.dir/main.cpp.o: ../include/library.h
 src/execute/CMakeFiles/execute.dir/main.cpp.o: ../src/execute/application.hpp
 src/execute/CMakeFiles/execute.dir/main.cpp.o: ../src/execute/main.cpp
-src/execute/CMakeFiles/execute.dir/main.cpp.o: ../src/face_detect/face_detect.hpp
 src/execute/CMakeFiles/execute.dir/main.cpp.o: ../src/image_processing/image_processing.hpp
 

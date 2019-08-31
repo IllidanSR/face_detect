@@ -8,10 +8,6 @@
 /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/CMakeFiles/edit_cache.dir
 /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/CMakeFiles/execute.dir
 /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/CMakeFiles/test.dir
-/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/CMakeFiles/rebuild_cache.dir
-/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/CMakeFiles/edit_cache.dir
-/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/CMakeFiles/face_detect.dir
-/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/CMakeFiles/test.dir
 /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/image_processing/CMakeFiles/edit_cache.dir
 /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/image_processing/CMakeFiles/rebuild_cache.dir
 /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/image_processing/CMakeFiles/image_processing.dir

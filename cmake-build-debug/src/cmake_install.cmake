@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute/cmake_install.cmake")
-  include("/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/face_detect/cmake_install.cmake")
   include("/home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/image_processing/cmake_install.cmake")
 
 endif()

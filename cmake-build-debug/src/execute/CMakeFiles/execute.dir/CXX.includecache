@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+../include/library.h
+string
+-
+vector
+-
+iostream
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+opencv2/opencv.hpp
+-
+
 /home/illidansr/CLionProjects/face_detect/src/execute/application.hpp
 iostream
 -
@@ -34,25 +48,11 @@ boost/filesystem.hpp
 application.hpp
 /home/illidansr/CLionProjects/face_detect/src/execute/application.hpp
 
-/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
-string
--
-vector
--
-iostream
--
-boost/property_tree/ptree.hpp
--
-boost/property_tree/json_parser.hpp
--
-opencv2/opencv.hpp
--
-
 /home/illidansr/CLionProjects/face_detect/src/image_processing/image_processing.hpp
 opencv2/opencv.hpp
 -
 iostream
 -
-../face_detect/face_detect.hpp
-/home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
+library.h
+-
 

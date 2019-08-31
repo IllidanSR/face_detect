@@ -13,7 +13,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.5/CMakeSystem.cmake"
   "../src/CMakeLists.txt"
   "../src/execute/CMakeLists.txt"
-  "../src/face_detect/CMakeLists.txt"
   "../src/image_processing/CMakeLists.txt"
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "/snap/clion/82/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
@@ -57,13 +56,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/execute/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/face_detect/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/image_processing/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/execute/CMakeFiles/execute.dir/DependInfo.cmake"
-  "src/face_detect/CMakeFiles/face_detect.dir/DependInfo.cmake"
   "src/image_processing/CMakeFiles/image_processing.dir/DependInfo.cmake"
   )
