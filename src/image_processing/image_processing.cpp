@@ -18,21 +18,15 @@ namespace image_processing{
         for(auto i : face_coords){
             blur_image = blur_region(image,i);
         }
-        save_file(pict_name, blur_image);
+        std::cout << "IMAGE NAME : " << pict_name << std::endl;
+        save_file("output/"+pict_name, blur_image);
 
     }
 
     cv::Mat ImageProcessing::resize_image(cv::Mat frame) {
         cv::Mat output;
         try {
-
-            cv::resize(frame, output,
-                       cv::Size(
-                               frame.cols * image_resize_cof_col,
-                               frame.rows * image_resize_cof_row),
-                       0,
-                       0,
-                       CV_INTER_LINEAR);
+            cv::resize(frame, output, cv::Size(), 0.5, 0.5, CV_INTER_LINEAR);
         }catch (cv::Exception &exception){
             std::cerr << "Can't resize" << std::endl;
         }

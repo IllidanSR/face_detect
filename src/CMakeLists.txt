@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.10)
 
 add_subdirectory(execute)
-add_subdirectory(face_detect)
 add_subdirectory(image_processing)

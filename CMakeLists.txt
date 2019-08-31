@@ -26,8 +26,10 @@ message(INSTALL_LIB_DIR : ${FACE_DETECT_INSTALL_LIB_DIR})
 ###############################################################################
 
 SET(INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
-include_directories(${INCLUDE_DIR})
+SET(LINK_DIR ${PROJECT_SOURCE_DIR}/lib)
 
+include_directories(${INCLUDE_DIR})
+link_directories(${LINK_DIR})
 add_subdirectory(src)
 
 ###############################################################################

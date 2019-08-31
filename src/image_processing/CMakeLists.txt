@@ -10,4 +10,5 @@ SET(SOURCE
 add_library(${PROJECT_NAME} SHARED ${SOURCE})
 target_include_directories(${PROJECT_NAME} INTERFACE .)
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
-target_link_libraries(${PROJECT_NAME} face_detect)
+target_link_libraries(${PROJECT_NAME} fdetectlib)
+#target_link_libraries(${PROJECT_NAME} face_detect)

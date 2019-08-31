@@ -20,10 +20,12 @@ int main(int argc, char** argv) {
         boost::filesystem::path filepath = listOfFiles[i];
         if (filepath.extension() == ".jpg"||filepath.extension() == ".png")
         {
+            std::cout << "NAME : " << filepath.stem() << std::endl;
             std::cout << "FRAME : " << listOfFiles[i] << std::endl;
             cv::Mat picture = cv::imread(listOfFiles[i]);
             image_processing::ImageProcessing imageProcessing;
-            imageProcessing.image_processing(picture, listOfFiles[i]);
+            imageProcessing.image_processing(picture, filepath.stem().string()
+            +filepath.extension().string());
         }
         else
         {
