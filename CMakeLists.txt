@@ -3,6 +3,11 @@ project(fdetectlib VERSION 1.0.1 DESCRIPTION "face_detect_lib")
 
 set(CMAKE_CXX_STANDARD 11)
 
+set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/build)
+#SET OUTPUT DIRS
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+
 find_package(OpenCV REQUIRED)
 
 find_package(Boost 1.65 REQUIRED COMPONENTS filesystem system)

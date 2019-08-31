@@ -24,7 +24,7 @@ namespace face_detect {///< @namespace face_detect
      * @version 1.0
      * @date 30.08.19
      * @throw if file can't be open - generate cv::Exception */
-    void find_face(std::string path);
+    void find_face(cv::Mat frame);
 
 
 }
