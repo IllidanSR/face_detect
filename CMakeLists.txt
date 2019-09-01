@@ -33,9 +33,17 @@ target_include_directories(${PROJECT_NAME} PRIVATE .)
 
 include(GNUInstallDirs)
 
-install(TARGETS ${PROJECT_NAME}
-        LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-        PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+
 
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
+install(TARGETS ${PROJECT_NAME}
+        COMPONENT fdetect
+        RUNTIME DESTINATION "/home/"
+        LIBRARY DESTINATION "/home/"
+        DESTINATION "/home/"
+        )
+
+SET(CPACK_GENERATOR "DEB")
+SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "KK")
+include(CPack)
