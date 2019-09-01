@@ -9,6 +9,7 @@
 - [x] save resize pictures ready
 - [x] create .dep package ready (*libfdetect_dep*)
 - [ ] add tests
+- [ ] add async work for face find and generate
 ---
 # warnings
 1) .json file with coords has named as original picture - boost function *json_write* rewrite nodes
