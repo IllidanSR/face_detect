@@ -17,6 +17,7 @@
 4) cmake version - 3.10
 5) boost version - 1.65.1
 6) OpenCV version 3.4
+7) STL C++ - 11
 
 ---
 
