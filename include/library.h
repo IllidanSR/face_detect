@@ -10,13 +10,6 @@
 
 namespace face_detect {///< @namespace face_detect
 
-    /*!@brief support function to create JSON file
-     * @param[in] faces vector detected face
-     * @details function get vector of faces and generate JSON file
-     * @author IllidanSR
-     * @version 1.0
-     * @date 30.08.19*/
-    void create_json(std::vector<cv::Rect> &faces);
     /*!@brief main function to find face on picture
      * @param[in] path path to file
      * @details function get path to file, verf is file can be open
