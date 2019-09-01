@@ -5,13 +5,16 @@
 #ifndef FACE_DETECTION_IMAGE_PROCESSING_HPP
 #define FACE_DETECTION_IMAGE_PROCESSING_HPP
 
-
-#include <opencv2/opencv.hpp>
 #include <iostream>
 #include <library.h>
 
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/json_parser.hpp>
+#include <opencv2/opencv.hpp>
+
 
 namespace image_processing {///< @namespace image_processing
+    typedef boost::property_tree::ptree Ptree;
     /*!@class ImageProcessing give tools to process with picture(resize,
      * blur, ROI and so on)
      * @brief Image processing tools
@@ -65,6 +68,14 @@ namespace image_processing {///< @namespace image_processing
          * @date 30.08.19
          * @throw if file can't be open - generate cv::Exception */
         bool save_file(std::string file_name, cv::Mat frame);
+
+        /*!@brief support function to create JSON file
+         * @param[in] faces vector detected face
+         * @details function get vector of faces and generate JSON file
+         * @author IllidanSR
+         * @version 1.0
+         * @date 30.08.19*/
+        void create_json(std::vector<cv::Rect> &faces, std::string file_name);
 
 
 

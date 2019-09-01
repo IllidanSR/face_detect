@@ -13,12 +13,16 @@ set(Boost_USE_STATIC_RUNTIME    OFF)
 find_package(Boost 1.67 REQUIRED COMPONENTS system filesystem)
 include_directories(${Boost_INCLUDE_DIRS})
 
+
+
 #SET(FIND_FACE_LIB face_detect)
+
+SET(APPLICATION_COMPONENT application)
+
 SET(SOURCE
-        main.cpp
-        application.cpp
-        application.hpp)
+        main.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
-target_link_libraries(${PROJECT_NAME} image_processing)
+
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${APPLICATION_COMPONENT})
