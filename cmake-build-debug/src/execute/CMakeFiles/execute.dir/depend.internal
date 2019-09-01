@@ -5,7 +5,7 @@ src/execute/CMakeFiles/execute.dir/application.cpp.o
  /home/illidansr/CLionProjects/face_detect/src/execute/application.cpp
  /home/illidansr/CLionProjects/face_detect/src/execute/application.hpp
 src/execute/CMakeFiles/execute.dir/main.cpp.o
+ ../include/library.h
  /home/illidansr/CLionProjects/face_detect/src/execute/application.hpp
  /home/illidansr/CLionProjects/face_detect/src/execute/main.cpp
- /home/illidansr/CLionProjects/face_detect/src/face_detect/face_detect.hpp
  /home/illidansr/CLionProjects/face_detect/src/image_processing/image_processing.hpp

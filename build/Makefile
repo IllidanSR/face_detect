@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detection
+CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detection/build
+CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,9 +91,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/build/CMakeFiles /home/illidansr/CLionProjects/face_detection/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/build/CMakeFiles /home/illidansr/CLionProjects/face_detect/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -135,17 +135,17 @@ execute/fast:
 .PHONY : execute/fast
 
 #=============================================================================
-# Target rules for targets named face_detect
+# Target rules for targets named image_processing
 
 # Build rule for target.
-face_detect: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 face_detect
-.PHONY : face_detect
+image_processing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image_processing
+.PHONY : image_processing
 
 # fast build rule for target.
-face_detect/fast:
-	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/build
-.PHONY : face_detect/fast
+image_processing/fast:
+	$(MAKE) -f src/image_processing/CMakeFiles/image_processing.dir/build.make src/image_processing/CMakeFiles/image_processing.dir/build
+.PHONY : image_processing/fast
 
 # Help Target
 help:
@@ -157,7 +157,7 @@ help:
 	@echo "... test"
 	@echo "... edit_cache"
 	@echo "... execute"
-	@echo "... face_detect"
+	@echo "... image_processing"
 .PHONY : help
 
 

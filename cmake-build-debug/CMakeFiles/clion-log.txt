@@ -3,10 +3,6 @@ INSTALL_INCLUDE_DIR:/home/illidansr/CLionProjects/face_detect/include
 INSTALL_BIN_DIR:/home/illidansr/CLionProjects/face_detect/bin
 INSTALL_LIB_DIR:/home/illidansr/CLionProjects/face_detect/lib
 -- Boost version: 1.69.0
--- Boost version: 1.69.0
--- Found the following Boost libraries:
---   filesystem
---   system
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/illidansr/CLionProjects/face_detect/cmake-build-debug

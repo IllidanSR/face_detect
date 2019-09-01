@@ -18,21 +18,15 @@ namespace image_processing{
         for(auto i : face_coords){
             blur_image = blur_region(image,i);
         }
+        std::cout << "IMAGE NAME : " << pict_name << std::endl;
         save_file(pict_name, blur_image);
-
+        create_json(face_coords,pict_name);
     }
 
     cv::Mat ImageProcessing::resize_image(cv::Mat frame) {
         cv::Mat output;
         try {
-
-            cv::resize(frame, output,
-                       cv::Size(
-                               frame.cols * image_resize_cof_col,
-                               frame.rows * image_resize_cof_row),
-                       0,
-                       0,
-                       CV_INTER_LINEAR);
+            cv::resize(frame, output, cv::Size(), 0.5, 0.5);
         }catch (cv::Exception &exception){
             std::cerr << "Can't resize" << std::endl;
         }
@@ -53,7 +47,27 @@ namespace image_processing{
             std::cerr<<"File : " << file_name << " was't save" << std::endl;
             return false;
         }
+    }
 
+    void ImageProcessing::create_json(std::vector<cv::Rect> &faces, std::string file_name) {
+        Ptree pt;
+        for( size_t i = 0; i < faces.size(); i++ ) {
 
+            Ptree children;
+            Ptree child1, child2, child3, child4;
+
+            child1.put("", faces[i].x);
+            child2.put("", faces[i].y);
+            child3.put("", faces[i].x + faces[i].width);
+            child4.put("",faces[i].y + faces[i].height);
+
+            children.push_back(std::make_pair("", child1));
+            children.push_back(std::make_pair("", child2));
+            children.push_back(std::make_pair("", child3));
+            children.push_back(std::make_pair("", child4));
+
+            pt.add_child(std::to_string(i), children);
+        }
+        boost::property_tree::json_parser::write_json(file_name+".json", pt);
     }
 }

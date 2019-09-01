@@ -1,8 +1,8 @@
-# Install script for directory: /home/illidansr/CLionProjects/face_detection/src/execute
+# Install script for directory: /home/illidansr/CLionProjects/face_detect/src/execute
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/illidansr/CLionProjects/face_detection")
+  set(CMAKE_INSTALL_PREFIX "/home/illidansr/CLionProjects/face_detect")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -54,29 +54,29 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detection
+CMAKE_SOURCE_DIR = /home/illidansr/CLionProjects/face_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detection/build
+CMAKE_BINARY_DIR = /home/illidansr/CLionProjects/face_detect/build
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
 src/all: src/execute/all
-src/all: src/face_detect/all
+src/all: src/image_processing/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
 src/clean: src/execute/clean
-src/clean: src/face_detect/clean
+src/clean: src/image_processing/clean
 
 .PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
 src/preinstall: src/execute/preinstall
-src/preinstall: src/face_detect/preinstall
+src/preinstall: src/image_processing/preinstall
 
 .PHONY : src/preinstall
 
@@ -102,10 +102,10 @@ src/execute/preinstall:
 # Target rules for target src/execute/CMakeFiles/execute.dir
 
 # All Build rule for target.
-src/execute/CMakeFiles/execute.dir/all: src/face_detect/CMakeFiles/face_detect.dir/all
+src/execute/CMakeFiles/execute.dir/all: src/image_processing/CMakeFiles/image_processing.dir/all
 	$(MAKE) -f src/execute/CMakeFiles/execute.dir/build.make src/execute/CMakeFiles/execute.dir/depend
 	$(MAKE) -f src/execute/CMakeFiles/execute.dir/build.make src/execute/CMakeFiles/execute.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detection/build/CMakeFiles --progress-num=1,2 "Built target execute"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detect/build/CMakeFiles --progress-num=1,2,3 "Built target execute"
 .PHONY : src/execute/CMakeFiles/execute.dir/all
 
 # Include target in all.
@@ -115,9 +115,9 @@ all: src/execute/CMakeFiles/execute.dir/all
 
 # Build rule for subdir invocation for target.
 src/execute/CMakeFiles/execute.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 src/execute/CMakeFiles/execute.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/build/CMakeFiles 0
 .PHONY : src/execute/CMakeFiles/execute.dir/rule
 
 # Convenience name for target.
@@ -136,57 +136,57 @@ clean: src/execute/CMakeFiles/execute.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src/face_detect
+# Directory level rules for directory src/image_processing
 
 # Convenience name for "all" pass in the directory.
-src/face_detect/all: src/face_detect/CMakeFiles/face_detect.dir/all
+src/image_processing/all: src/image_processing/CMakeFiles/image_processing.dir/all
 
-.PHONY : src/face_detect/all
+.PHONY : src/image_processing/all
 
 # Convenience name for "clean" pass in the directory.
-src/face_detect/clean: src/face_detect/CMakeFiles/face_detect.dir/clean
+src/image_processing/clean: src/image_processing/CMakeFiles/image_processing.dir/clean
 
-.PHONY : src/face_detect/clean
+.PHONY : src/image_processing/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/face_detect/preinstall:
+src/image_processing/preinstall:
 
-.PHONY : src/face_detect/preinstall
+.PHONY : src/image_processing/preinstall
 
 #=============================================================================
-# Target rules for target src/face_detect/CMakeFiles/face_detect.dir
+# Target rules for target src/image_processing/CMakeFiles/image_processing.dir
 
 # All Build rule for target.
-src/face_detect/CMakeFiles/face_detect.dir/all:
-	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/depend
-	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detection/build/CMakeFiles --progress-num=3,4 "Built target face_detect"
-.PHONY : src/face_detect/CMakeFiles/face_detect.dir/all
+src/image_processing/CMakeFiles/image_processing.dir/all:
+	$(MAKE) -f src/image_processing/CMakeFiles/image_processing.dir/build.make src/image_processing/CMakeFiles/image_processing.dir/depend
+	$(MAKE) -f src/image_processing/CMakeFiles/image_processing.dir/build.make src/image_processing/CMakeFiles/image_processing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/illidansr/CLionProjects/face_detect/build/CMakeFiles --progress-num=4,5 "Built target image_processing"
+.PHONY : src/image_processing/CMakeFiles/image_processing.dir/all
 
 # Include target in all.
-all: src/face_detect/CMakeFiles/face_detect.dir/all
+all: src/image_processing/CMakeFiles/image_processing.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/face_detect/CMakeFiles/face_detect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/face_detect/CMakeFiles/face_detect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detection/build/CMakeFiles 0
-.PHONY : src/face_detect/CMakeFiles/face_detect.dir/rule
+src/image_processing/CMakeFiles/image_processing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/image_processing/CMakeFiles/image_processing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/illidansr/CLionProjects/face_detect/build/CMakeFiles 0
+.PHONY : src/image_processing/CMakeFiles/image_processing.dir/rule
 
 # Convenience name for target.
-face_detect: src/face_detect/CMakeFiles/face_detect.dir/rule
+image_processing: src/image_processing/CMakeFiles/image_processing.dir/rule
 
-.PHONY : face_detect
-
-# clean rule for target.
-src/face_detect/CMakeFiles/face_detect.dir/clean:
-	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/clean
-.PHONY : src/face_detect/CMakeFiles/face_detect.dir/clean
+.PHONY : image_processing
 
 # clean rule for target.
-clean: src/face_detect/CMakeFiles/face_detect.dir/clean
+src/image_processing/CMakeFiles/image_processing.dir/clean:
+	$(MAKE) -f src/image_processing/CMakeFiles/image_processing.dir/build.make src/image_processing/CMakeFiles/image_processing.dir/clean
+.PHONY : src/image_processing/CMakeFiles/image_processing.dir/clean
+
+# clean rule for target.
+clean: src/image_processing/CMakeFiles/image_processing.dir/clean
 
 .PHONY : clean
 

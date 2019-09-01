@@ -135,19 +135,6 @@ execute/fast:
 .PHONY : execute/fast
 
 #=============================================================================
-# Target rules for targets named face_detect
-
-# Build rule for target.
-face_detect: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 face_detect
-.PHONY : face_detect
-
-# fast build rule for target.
-face_detect/fast:
-	$(MAKE) -f src/face_detect/CMakeFiles/face_detect.dir/build.make src/face_detect/CMakeFiles/face_detect.dir/build
-.PHONY : face_detect/fast
-
-#=============================================================================
 # Target rules for targets named image_processing
 
 # Build rule for target.
@@ -170,7 +157,6 @@ help:
 	@echo "... test"
 	@echo "... edit_cache"
 	@echo "... execute"
-	@echo "... face_detect"
 	@echo "... image_processing"
 .PHONY : help
 

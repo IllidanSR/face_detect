@@ -112,26 +112,6 @@ execute_EXTERNAL_OBJECTS =
 ../build/execute: /usr/local/lib/libopencv_imgcodecs.so.3.4.2
 ../build/execute: /usr/local/lib/libopencv_imgproc.so.3.4.2
 ../build/execute: /usr/local/lib/libopencv_core.so.3.4.2
-../build/execute: ../build/lib/libface_detect.so
-../build/execute: /usr/local/lib/libopencv_dnn.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_ml.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_objdetect.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_shape.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_stitching.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_superres.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_videostab.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_calib3d.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_features2d.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_flann.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_highgui.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_photo.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_video.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_videoio.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_imgcodecs.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_imgproc.so.3.4.2
-../build/execute: /usr/local/lib/libopencv_core.so.3.4.2
-../build/execute: /usr/local/include/lib/libboost_filesystem.so
-../build/execute: /usr/local/include/lib/libboost_system.so
 ../build/execute: src/execute/CMakeFiles/execute.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/illidansr/CLionProjects/face_detect/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../build/execute"
 	cd /home/illidansr/CLionProjects/face_detect/cmake-build-debug/src/execute && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/execute.dir/link.txt --verbose=$(VERBOSE)

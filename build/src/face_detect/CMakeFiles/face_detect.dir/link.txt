@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libface_detect.a  CMakeFiles/face_detect.dir/face_detect.cpp.o
-/usr/bin/ranlib ../../lib/libface_detect.a
