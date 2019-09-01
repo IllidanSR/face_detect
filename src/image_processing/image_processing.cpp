@@ -26,7 +26,7 @@ namespace image_processing{
     cv::Mat ImageProcessing::resize_image(cv::Mat frame) {
         cv::Mat output;
         try {
-            cv::resize(frame, output, cv::Size(), 0.5, 0.5, CV_INTER_LINEAR);
+            cv::resize(frame, output, cv::Size(), 0.5, 0.5);
         }catch (cv::Exception &exception){
             std::cerr << "Can't resize" << std::endl;
         }
